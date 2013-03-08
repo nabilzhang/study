@@ -1,0 +1,317 @@
+﻿/*
+首页样式
+*/
+body {
+	background:#333333;
+	font-size:14px;
+	font-family:"宋体";
+	margin:0;
+	padding:0;
+	color:#444444;
+}
+p{
+	text-indent:2em;
+}
+#box{
+	text-align:center;
+}
+#btop{
+	margin:5px 0 0 0;
+	height:90px;
+	background:url(images/btop.png);
+	text-align:center;
+}
+#top{
+	text-align:left;
+	margin:0 auto;
+	height:90px;
+	width:880px;
+	background:url(images/top.png) no-repeat;
+}
+#top h1,#top h4{
+	margin:10px 0 0 0;
+	padding:0;
+	color:#fff;
+}
+ #top h1 a{
+	text-decoration:none;
+	color:#fff;
+}
+#top h1 a:hover{
+	color:#288bde;
+}
+#menu{
+	height:40px;
+	background:url(images/menubg.png) repeat-x;
+	margin:0 auto;
+	text-align:center;
+}
+#menu ul{
+	padding:0;
+	width:890px;
+	margin:0 auto;
+	list-style-image:none;
+	text-align:left;	
+}
+#menu ul li{
+	padding:0;
+	float:left;
+	list-style:none;
+	line-height:40px;
+	margin-right:25px;
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	line-height:40px;
+	font-size:18px;
+    display:block;
+}
+
+#menu ul li a:hover{
+	line-height:40px;
+	background:#69B0EB;
+}
+
+#menu ul li.fright{
+	float:right;
+	margin-right:0;
+}
+
+#bcontent{
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	width:900px;
+}
+#leftshadow{
+	background:url(images/leftshadow.png) repeat-y left;
+}
+#rightshadow{
+	background:url(images/rightshadow.png) repeat-y right;
+}
+#topshadow{
+	margin:0;
+	padding:0;
+	height:8px;
+	background:url(images/topshadow.png) repeat-x top;
+}
+#bottomshadow{
+	margin:0;
+	padding:0;
+	height:8px;
+	clear:left;
+	background:url(images/bottomshadow.png) repeat-x bottom left;
+}
+#content{
+	margin:0 auto;
+	width:890px;
+	text-align:left;
+	background:#fff;
+	padding:0;
+}
+#mycontent{
+	width:inherit;
+	padding:0px;
+	height:auto;
+	margin:0;
+}
+#leftcontent{
+	margin-bottom:10px;
+	float:left;
+}
+#leftone{
+	width:500px;
+	margin:0px 10px 0px 5px;
+	border:solid 1px #909090;
+	border-top:solid 3px #333333;
+	overflow:hidden;
+	background:url(images/lcbg.png) repeat-x top left;
+	padding:5px;
+}
+#leftcontent h4{
+	margin:0;
+	padding:0;
+}
+#lefttwo,#leftthree,#leftfour{
+	width:500px;
+	margin:10px 10px 0px 5px;
+	border:solid 1px #909090;
+	overflow:hidden;
+	background:url(images/lcbg.png) repeat-x top left;
+	padding:5px;
+}
+#lefttwo ul,#leftthree ul,#leftfour ul{
+	margin:0;
+	padding-left:15px;
+}
+#rightcontet{
+	margin:0;
+	padding:5px;
+	float:left;
+	width:340px;
+	border:solid 1px #909090;
+	border-top:solid 3px #333333;
+	background:url(images/rcbg.png) repeat-x top left;
+}
+
+div.title{
+	height:30px;
+	margin:0;
+    background:url(images/titlebg.png) top left; 	
+	color:#fff;
+	line-height:30px;
+	font-weight:700;
+}
+div.title span{
+	margin-top:5px;
+	padding:5px;
+	padding-left:25px;
+	background:url(images/titleicon.gif) no-repeat left bottom;
+}
+div.rcs{
+	margin:0 0 5px 0;
+	padding:0;
+	border:solid 1px #999999;
+	border-top:none;
+}
+.rcs .myintro{
+	padding:5px;
+	float:left;
+}
+.rcs .myintro table{
+	/*
+color:#003399;
+*/
+}
+.ddr{
+	text-align:right;
+	float:right;
+}
+
+.ddr img {
+  	margin: 5px 0px 0 0;
+  	padding: 4px;
+  	border: 1px solid #D9E0E6;
+  	border-bottom-color: #C8CDD2;
+  	border-right-color: #C8CDD2;
+  	background: #fff;
+ }
+ 
+ .rcs .course, .rcs .computer{
+ 	padding:5px;
+ }
+ .rcs .computer ul{
+  	margin:0;
+	padding-left:15px;
+	overflow:hidden;
+
+  }
+ .clear{
+ 	clear:both;
+ }
+
+#footer{
+	clear:left;
+	background:url(images/booterbg.png) repeat-x top;
+	height:100px;
+	overflow:hidden;
+	margin:0;
+	padding-top:20px;
+	color:#fff;
+}
+
+/*
+日志页面
+*/
+#diary #mycontent #diarylist{
+	width:600px;
+	margin:0px 10px 20px 5px;
+	border:solid 1px #909090;
+	overflow:hidden;
+	background:url(images/lcbg.png) repeat-x top left;
+	padding:5px;
+}
+
+#diary #mycontent #diarylist ul li{
+	margin-bottom:15px;
+}
+#diary #mycontent #diarylist ul li span{
+	margin-left:40px;
+}
+#diary #mycontent #diarylist ul li a{
+	text-decoration:underline;
+	color:#303030;
+}
+#diary #mycontent #diarylist ul li a:hover{
+	text-decoration:none;
+	color:#69B0EB;
+}
+#diary #mycontent #diarylist ul li.linone{
+	list-style:none;
+}
+#page{
+	text-align:center;	
+}
+
+#page a{
+	text-decoration:underline;
+	color:#303030;
+}
+/*
+  相册页面
+*/
+#photo #myphoto{
+	width:800px;	
+	margin:0px 10px 20px 5px;
+	border:solid 1px #909090;
+	overflow:hidden;
+	background:url(images/lcbg.png) repeat-x top left;
+	padding:5px;
+}
+#photo #myphoto img{
+   	height:200px;
+	width:250px;
+	border:solid 4px #c0c0c0;
+	border-right-color:#969696;
+	border-bottom-color:004040;
+  	background: #fff;
+	margin-right:4px;
+}
+/*
+ * 留言页面
+ */
+#message #leavemessage{
+	width:600px;
+	margin:0px 10px 20px 5px;
+	border:solid 1px #909090;
+	overflow:hidden;
+	background:url(images/lcbg.png) repeat-x top left;
+	padding:5px;
+}
+#message #leavemessage form{
+	padding-left:20px;
+}
+#message #leavemessage .messagediv{
+	margin:10px;
+}
+#message #leavemessage .singletext{
+	width:300px;
+	height:20px;
+	font-size:18px;
+}
+#message #leavemessage textarea{
+	width:450px;
+	height:200px;
+	margin-left:65px;
+	margin-top:-16px;
+}
+#message #leavemessage .messagesubmit{
+	width:100px;
+	height:45px;
+	background:url(images/submit.gif);
+	border:none;
+	cursor:hand;
+	margin-left:400px;
+}
