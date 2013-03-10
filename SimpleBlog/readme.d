@@ -1,0 +1,1 @@
+安装很简单，将sql下的simpleblog.sql导入mysql，修改diary.jsp及diary_detail.jsp中的使用到的mysql地址即可。
