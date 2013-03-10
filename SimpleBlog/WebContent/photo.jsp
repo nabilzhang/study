@@ -33,11 +33,11 @@
 						      	<h4>相册</h4>
 								<hr>
 						      	 	<img src="images/photo.jpg" alt="1"/>
-									<img src="images/photo2.jpg" alt="2"/>	
-									<img src="images/photo13.jpg" alt="3"/>	<br/>
-									<img src="images/photo14.jpg" alt="4"/>	
-									<img src="images/photo15.jpg" alt="5"/>	
-									<img src="images/photo16.jpg" alt="6"/>	
+									<img src="images/photo.jpg" alt="2"/>	
+									<img src="images/photo.jpg" alt="3"/>	<br/>
+									<img src="images/photo.jpg" alt="4"/>	
+									<img src="images/photo.jpg" alt="5"/>	
+									<img src="images/photo.jpg" alt="6"/>	
 									<br/><br/>
 								<div id="page">
 									 <a href="#">首页</a>&nbsp;&nbsp;<a href="#">上一页</a>&nbsp;&nbsp;<a href="#">下一页</a>&nbsp;&nbsp;<a href="#">尾页</a>	

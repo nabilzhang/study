@@ -116,7 +116,7 @@
 								  	 	</table>								  	 	
 								  	 </div>
 									 <div class="ddr">
-											<img src="images/shiyue.jpg" alt="张弼" />
+											<img src="images/avatar.jpg" alt="张弼" />
 									</div>
 									<div class="clear"></div>
 								  	
